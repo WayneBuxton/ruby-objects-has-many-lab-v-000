@@ -6,7 +6,6 @@ class Song
 
   def initialize(song)
     @song = song
-    @name = name
     binding.pry
   end
 

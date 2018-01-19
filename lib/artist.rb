@@ -20,7 +20,7 @@ attr_accessor :name
   def add_song_by_name(song)
     song = Song.new(song)
     @songs << song
-    song.name = self
+    song.self = self
     #binding.pry
   end
 end

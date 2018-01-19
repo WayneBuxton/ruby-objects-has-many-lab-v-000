@@ -10,11 +10,12 @@ attr_accessor :name, :song
 
   def songs
     @songs
-    binding.pry
+    #binding.pry
   end
 
   def add_song(song)
     @songs << song
+    pry
     song.artist = self
   end
 

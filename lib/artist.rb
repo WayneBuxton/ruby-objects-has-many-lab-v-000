@@ -8,6 +8,7 @@ attr_accessor :name, :song
   def initialize(name)
     @name = name
     @songs = []
+    @@song_count += 1
     #binding.pry
 
   end

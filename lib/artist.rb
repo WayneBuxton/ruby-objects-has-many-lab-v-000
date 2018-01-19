@@ -22,6 +22,7 @@ attr_accessor :name, :song
     @songs << song
     @@song_count += 1
     song.artist = self
+    binding.pry
 
   end
 

@@ -36,7 +36,7 @@ attr_accessor :name, :song
     @@song_count
     add_song
     @@song_count += 1
-    
+
     #binding.pry
   end
 end

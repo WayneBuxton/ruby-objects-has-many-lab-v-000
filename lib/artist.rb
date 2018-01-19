@@ -24,6 +24,6 @@ attr_accessor :name, :song
     @songs << song
     song.artist = self
     song.name = name
-    binding.pry
+    #binding.pry
   end
 end

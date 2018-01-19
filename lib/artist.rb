@@ -33,7 +33,7 @@ attr_accessor :name, :song
   def self.song_count
     @@song_count
     song = Song.new(song)
-    @songs << song
+    @song
     @@song_count += 1
 
     #binding.pry

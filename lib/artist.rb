@@ -17,10 +17,10 @@ attr_accessor :name
     song.artist = self
   end
 
-  def add_song_by_name(song)
-    song = Song.new(song)
-    @songs << song
-    song.artist = self
-    #binding.pry
+  def add_song_by_name(name)
+    name = Song.new(name)
+    @songs << name
+    name.artist = self
+    binding.pry
   end
 end

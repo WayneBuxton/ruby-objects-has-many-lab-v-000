@@ -32,6 +32,7 @@ attr_accessor :name, :song
 
   def self.song_count
     @@song_count
+    song = Song.new
     self.add_song(song)
     @@song_count += 1
 

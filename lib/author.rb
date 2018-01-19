@@ -1,5 +1,5 @@
 class Author
 
 
-  
+
 end

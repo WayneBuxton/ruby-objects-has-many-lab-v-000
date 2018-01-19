@@ -35,6 +35,6 @@ attr_accessor :name, :song
     @name
 
 
-    binding.pry
+    #binding.pry
   end
 end

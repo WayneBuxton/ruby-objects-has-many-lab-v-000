@@ -6,7 +6,6 @@ attr_accessor :name, :song
   def initialize(name)
     @name = name
     @songs = []
-    @@song_count = 0
   end
 
   def songs
@@ -29,7 +28,7 @@ attr_accessor :name, :song
   end
 
   def self.song_count
-    
+
     #binding.pry
   end
 end

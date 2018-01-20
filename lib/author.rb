@@ -20,7 +20,8 @@ end
 def add_post_by_title(title)
   post = Post.new(title)
   @posts << post
-  post.author
+  post.author = self
+  post.name = name
   #binding.pry
 end
 

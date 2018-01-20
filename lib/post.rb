@@ -12,7 +12,7 @@ end
 
 def author_name
   #name = author.name
-  if self.author.name == author.name
+  if name == author.name
     self.author.name
   else
     nil

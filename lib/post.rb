@@ -10,9 +10,6 @@ def initialize(title)
   #binding.pry
 end
 
-def name
-end
-
 def author_name
   if self.author
     self.author.name

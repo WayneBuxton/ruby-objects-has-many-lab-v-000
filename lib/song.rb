@@ -5,8 +5,6 @@ class Song
   attr_accessor :artist, :name
 
   def initialize(name)
-    @song = song
-    @artist = artist
     @name = name
     binding.pry
   end

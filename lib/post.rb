@@ -15,8 +15,7 @@ def author_name
     self.author.name
   else
     nil
-  binding.pry
-
+  end
 end
 
 end

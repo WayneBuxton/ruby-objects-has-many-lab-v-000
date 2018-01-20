@@ -8,7 +8,7 @@ class Song
     @song = song
     @artist = artist
     @name = name
-    #binding.pry
+    binding.pry
   end
 
 

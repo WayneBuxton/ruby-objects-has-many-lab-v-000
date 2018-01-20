@@ -25,5 +25,12 @@ def add_post_by_title(title)
   #binding.pry
 end
 
+def self.post_count
+
+
+
+end
+
+
 
 end

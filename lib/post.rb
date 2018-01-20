@@ -9,7 +9,7 @@ def initialize(title)
 end
 
 def author_name
-  post.artist.name
+  title.artist.name
 
 end
 

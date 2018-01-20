@@ -8,4 +8,7 @@ def initialize(title)
   #binding.pry
 end
 
+def author_name
+end
+
 end

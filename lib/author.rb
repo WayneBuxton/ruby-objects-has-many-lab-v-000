@@ -18,6 +18,7 @@ def add_post(post)
 end
 
 def add_post_by_title(title)
+  post = Post.new(title)
   #binding.pry
 end
 

@@ -11,7 +11,7 @@ def initialize(title)
 end
 
 def author_name
-  name = author.name
+  #name = author.name
   if self.author.name == author.name
     self.author.name
   else

@@ -10,9 +10,10 @@ def initialize(title)
   #binding.pry
 end
 
+def name
+end
+
 def author_name
-  #name = author.name
-  #binding.pry
   if self.author 
     self.author.name
   else

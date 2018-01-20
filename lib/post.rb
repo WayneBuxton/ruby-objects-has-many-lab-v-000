@@ -5,7 +5,7 @@ attr_accessor :author
 
 def initialize(title)
   @title = title
-  binding.pry
+  #binding.pry
 end
 
 end

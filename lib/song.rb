@@ -11,8 +11,9 @@ class Song
     #binding.pry
   end
 
-def name 
-end
+  def name 
+    song.name
+  end
 
   def artist_name
     if self.artist

@@ -10,7 +10,7 @@ end
 
 def author_name
   post.artist.name
-  
+
 end
 
 end

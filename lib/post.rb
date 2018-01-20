@@ -13,7 +13,7 @@ end
 def author_name
   #name = author.name
   #binding.pry
-  if self.author.name
+  if self.author
     self.author.name
   else
     nil

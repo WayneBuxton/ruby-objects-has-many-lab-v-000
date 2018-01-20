@@ -13,7 +13,7 @@ class Song
 
   def name
   end
-  
+
   def artist_name
     if self.artist
       self.artist.name

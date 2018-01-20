@@ -12,8 +12,8 @@ end
 
 def author_name
   #name = author.name
-  binding.pry
-  if self.author.name 
+  #binding.pry
+  if self.author.name
     self.author.name
   else
     nil
